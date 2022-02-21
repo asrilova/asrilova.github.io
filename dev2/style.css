@@ -108,7 +108,7 @@ span{
 	z-index: 10;
 	padding: 7px;
 	background: -webkit-linear-gradient(to right, #b24592, #f15f79);
-  background: linear-gradient(to right, #b24592, #f15f79);
+  	background: linear-gradient(to right, #b24592, #f15f79);
 	border-radius: 50px 120px 120px;	
 }
 
@@ -221,7 +221,7 @@ span{
 
 
 /*  FOLLOW*/
-.Follow {	  background:url("https://pbs.twimg.com/profile_images/.jpg")no-repeat center / contain;
+.Follow {	  background:url("https://qty.es/images/1.jpg")no-repeat center / contain;
 	width: 50px;
 	height: 50px;
 	bottom: 9px;
