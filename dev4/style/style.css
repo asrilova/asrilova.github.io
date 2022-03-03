@@ -3,7 +3,6 @@ html, body{
 }
 
 body { 
-
 			background-position: center center;
 			background-repeat:  no-repeat;
 			background-attachment: fixed;
@@ -15,9 +14,16 @@ body {
 }
 
 .jumbotron {
-  background-image: url(http://qty.es/dev/image/1.jpg);
-  height: 100%; 
-  width: 100%; 
+  			background-image: url(http://qty.es/dev/image/1.jpg);
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+			height: 100%;  
+			background-width: 100%;  
+	  		object-fit: fill;
+			width: 100%; 
 }
 
 div, body{
