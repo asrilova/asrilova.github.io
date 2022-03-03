@@ -8,6 +8,7 @@ body {
 			background-attachment: fixed;
 			background-size:  cover;
 			background-color: #999;
+			test-color: #FF0009;
 			height: 100%;  
 			background-width: 100%;  
 	  		object-fit: fill;
