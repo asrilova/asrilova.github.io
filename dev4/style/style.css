@@ -20,6 +20,7 @@ body {
 			background-attachment: fixed;
 			background-size:  cover;
 			background-color: #999;
+			text-color: #FFF0F9; 
 			/*height: 405px;*/  
 			width: 100%; 
 		  	object-fit: fill;
