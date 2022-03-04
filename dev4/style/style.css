@@ -23,6 +23,7 @@ body {
 			/*height: 405px;*/  
 			width: 100%; 
 		  	object-fit: fill;
+			margin: 0;
 }
 
 div, body{
