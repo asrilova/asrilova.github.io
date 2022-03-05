@@ -1,3 +1,15 @@
+# If you're sniffing around this file, and you're not a robot, we're looking to meet curious folks such as yourself.
+# Think you have what it takes to join the best tech team?
+# Run - don't crawl - to apply to join qty's elite engineers team
+# Email us, call us or visit https://qty.es/careers
+#
+# As always, Asimov's Three Laws are in effect:
+# 1. A robot may not injure a human being or, through inaction, allow a human
+#    being to come to harm.
+# 2. A robot must obey orders given it by human beings except where such
+#    orders would conflict with the First Law.
+# 3. A robot must protect its own existence as long as such protection does
+#    not conflict with the First or Second Law.
 
 User-agent: Mediapartners-Google*
 Disallow:
