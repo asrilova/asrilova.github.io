@@ -1,0 +1,57 @@
+
+User-agent: Mediapartners-Google*
+Disallow:
+
+User-agent: *
+Disallow: /channel/*/community
+Disallow: /comment
+Disallow: /get_video
+Disallow: /get_video_info
+Disallow: /get_midroll_info
+Disallow: /live_chat
+Disallow: /login
+Disallow: /results
+Disallow: /signup
+Disallow: /t/terms
+Disallow: /timedtext_video
+Disallow: /user/*/community
+Disallow: /verify_age
+Disallow: /watch_ajax
+Disallow: /watch_fragments_ajax
+Disallow: /watch_popup
+Disallow: /watch_queue_ajax
+
+# WHAT-4882 - Block indexing of links in notification emails. This applies to all bots.
+# =====================================================================================
+Disallow: /i/u
+Noindex: /i/u
+
+# Wait 1 second between successive requests. See ONBOARD-2698 for details.
+Crawl-delay: 1
+
+# Independent of user agent. Links in the sitemap are full URLs using https:// and need to match
+# the protocol of the sitemap.
+
+Sitemap: https://www.qty.es/sitemaps/sitemap.xml
+Sitemap: https://www.qty.es/sitemap.xml
+
+# Every bot that might possibly read and respect this file
+# ========================================================
+#             .=     ,        =.
+#     _  _   /'/    )\,/,/(_   \ \
+#      `//-.|  (  ,\\)\//\)\/_  ) |
+#      //___\   `\\\/\\/\/\\///'  /
+#   ,-"~`-._ `"--'_   `"""`  _ \`'"~-,_
+#   \       `-.  '_`.      .'_` \ ,-"~`/
+#    `.__.-'`/   (-\        /-) |-.__,'
+#      ||   |     \O)  /^\ (O/  |
+#      `\\  |         /   `\    /
+#        \\  \       /      `\ /
+#         `\\ `-.  /' .---.--.\
+#           `\\/`~(, '()      ('
+#            /(O) \\   _,.-.,_)
+#           //  \\ `\'`      /
+#     qty  / |  ||   `""""~"`
+#        /'  |__||
+#              `o
+# ========================================================
