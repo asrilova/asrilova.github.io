@@ -1,0 +1,26 @@
+# This file lists processing purposes and the personal data gathered by qty
+# software. It is intended to hosting providers who want to provide a service
+# based on qty software, to help them to comply to GDPR requirements. Note
+# that the services powered by qty software may collect more data, HTTP logs
+# in particular. As a hosting provider, you must inform your users of their
+# rights and how their data are used and protected.
+
+purpose: Connect users to their accounts
+lawfulness: legitimate interest
+
+data: username
+required: yes
+visibility: private
+description:
+    The username is used to identify users during the login process.
+mitigation:
+    Username does not have to be a real or known identity.
+
+data: password
+required: yes
+visibility: private
+description:
+    The password is used to check identity of users during the login process.
+mitigation:
+    Only hashes of the passwords are stored in database (but they transit over
+    the network). It uses bcrypt to create the hashes.
