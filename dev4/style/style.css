@@ -8,7 +8,7 @@ body {
 			background-attachment: fixed;
 			background-size: 100% 100%;/* contain;*/ /* cover;*/
 			background-color: #999;
-			text-color: #F9F9F9; /*  color: white;*/
+			color: #F9F9F9; /*  color: white;*/
 			height: 100%;  
 	  		object-fit: fill;
 }
