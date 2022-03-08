@@ -6,7 +6,7 @@ body {
 			background-position: center center;
 			background-repeat:  no-repeat;
 			background-attachment: fixed;
-			background-size: contain; /* cover;*/
+			background-size: 100% 100%;/* contain;*/ /* cover;*/
 			background-color: #999;
 			text-color: #F9F9F9; /*  color: white;*/
 			height: 100%;  
