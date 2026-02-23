@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Factura>
+  <Acreedor>
+    <Nombre>Fontaneria Juan</Nombre>
+    <Direccion>Calle Napoletos 12</Direccion>
+    <Poblacion>León</Poblacion>
+    <Pais>ES</Pais>
+    <IBAN>ES12345678901234</IBAN>
+    <BIC>BBVAESMM</BIC>
+  </Acreedor>
+  
+  <NumFactura>00001</NumFactura>
+  <FechaFactura>2026-01-21</FechaFactura>
+  <Concepto>Grifería cocina</Concepto>
+  <Importe>500.50</Importe>
+  
+  <Vencimiento>2026-02-15</Vencimiento>
+</Factura>
+
+<!-- Ejercicio 1: Considerar caso en que dirección tiene longitud mayor que el maximo de 70 caracteres -->
+<!-- Ejercicio 2: Procesar archivo de entrada con facturas multiples -->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Facturas>
+   <Lote>2026-01</Lote>
+   <FechaLote>2026-01-29</FechaLote>
+   <Factura>
+     <Acreedor>
+       <Nombre>Fontaneria Juan</Nombre>
+       <Direccion>Calle NapoletosCalle NapoletosCCalle NapoletosCalle NapoletosC</Direccion>
+       <Poblacion>León</Poblacion>
+       <Pais>ES</Pais>
+       <IBAN>ES12345678901234</IBAN>
+       <BIC>BBVAESMM</BIC>
+     </Acreedor>
+     
+     <NumFactura>00001</NumFactura>
+     <FechaFactura>2026-01-21</FechaFactura>
+     <Concepto>Grifería cocina Grifería cocina Grifería cocina Grifería cocina Grifería cocina</Concepto>
+     <Importe>500.50</Importe>
+     
+     <Vencimiento>2026-02-15</Vencimiento>
+   </Factura>
+   <Factura>
+     <Acreedor>
+       <Nombre>Gas Juan</Nombre>
+       <Direccion>Calle NapoletosCalle NapoletosCCalle NapoletosCalle NapoletosC</Direccion>
+       <Poblacion>León</Poblacion>
+       <Pais>ES</Pais>
+       <IBAN>ES12345678901234</IBAN>
+       <BIC>BBVAESMM</BIC>
+     </Acreedor>
+     
+     <NumFactura>00002</NumFactura>
+     <FechaFactura>2026-01-21</FechaFactura>
+     <Concepto>Grifería cocina Grifería cocina Grifería cocina Grifería cocina Grifería cocina</Concepto>
+     <Importe>600.50</Importe>
+     
+     <Vencimiento>2026-02-15</Vencimiento>
+   </Factura>
+   <Factura>
+     <Acreedor>
+       <Nombre>Luz Juan</Nombre>
+       <Direccion>NapoletosCalle NapoletosC</Direccion>
+       <Poblacion>León</Poblacion>
+       <Pais>ES</Pais>
+       <IBAN>ES123333444455556666</IBAN>
+       <BIC>OPENESMM</BIC>
+     </Acreedor>
+     
+     <NumFactura>00045</NumFactura>
+     <FechaFactura>2026-01-11</FechaFactura>
+     <Concepto>Lámparas aulas primer piso</Concepto>
+     <Importe>700.50</Importe>
+     
+     <Vencimiento>2026-02-15</Vencimiento>
+   </Factura>
+</Facturas>
+<!-- Ejercicio 1: Considerar caso en que dirección tiene longitud mayor que el maximo de 70 caracteres -->
+<!-- Ejercicio 2: Procesar archivo de entrada con facturas multiples -->
